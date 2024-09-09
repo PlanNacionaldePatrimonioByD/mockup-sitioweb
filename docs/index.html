@@ -1,18 +1,66 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light dark" />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
-/>
-    <title>Hello world!</title>
-  </head>
-  <body>
-    <main class="container">
-      <img src="./img/vamos-a-hacer-memoria.webp" width="300" height="auto" />
-    </main>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Patrimonio Bibliográfico y Documental</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-white border-b border-gray-200">
+        <div class="container mx-auto flex justify-between items-center py-4">
+            <div class="text-lg font-semibold text-gray-800">
+                <a href="#" class="hover:text-gray-600">Qué es el Plan</a>
+                <a href="#" class="ml-6 hover:text-gray-600">Componentes para la gestión del PByD</a>
+                <a href="#" class="ml-6 hover:text-gray-600">Formación y actividades</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto flex mt-8" style="max-width: 1024px;">
+        <!-- Sidebar -->
+        <aside class="w-1/4 bg-white shadow-md p-6">
+            <h2 class="text-xl font-semibold mb-6">Qué es el Plan</h2>
+            <ul class="space-y-4 text-gray-700">
+                <li><a href="#" class="hover:underline">El patrimonio Bibliográfico y Documental</a></li>
+                <li><a href="#" class="hover:underline">La política de patrimonio ByD</a></li>
+                <li><a href="#" class="hover:underline">El Plan</a></li>
+                <li><a href="#" class="hover:underline">Quiénes somos</a></li>
+                <li><a href="#" class="hover:underline">Contáctenos</a></li>
+                <li><a href="#" class="hover:underline">Alcance Territorial</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="w-3/4 bg-white shadow-md p-8 ml-8">
+            <nav class="text-gray-600 text-sm mb-4">
+                <a href="#" class="hover:underline">Qué es el Plan</a> / 
+                <span>El patrimonio ByD</span>
+            </nav>
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">El patrimonio Bibliográfico y Documental</h1>
+            <p class="text-gray-600 mb-6">
+                Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí".
+            </p>
+            
+            <!-- Document Download Section -->
+            <div class="flex items-center justify-between">
+                <div class="text-gray-700">
+                    <span class="font-semibold">Descargas</span>
+                </div>
+                <a href="#" class="bg-gray-800 text-white py-2 px-4 rounded flex items-center hover:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3 4a1 1 0 000 2h14a1 1 0 100-2H3zM4 9a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zm2 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
+                    </svg>
+                    Documento
+                </a>
+            </div>
+
+            <!-- Document Viewer Placeholder -->
+            <div class="mt-8 bg-gray-200 h-64 flex justify-center items-center">
+                <img src="https://placehold.co/800x400" alt="Documento" class="rounded shadow-lg">
+            </div>
+        </main>
+    </div>
+</body>
 </html>
